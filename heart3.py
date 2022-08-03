@@ -79,26 +79,13 @@ print("Prediction: ", prediction2)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
+"""  # ------  Another options to call pickle -------
 filename = "heart3.py"
 pickle.dump(logistic, open(filename,"wb"))
 
 loaded_model = pickle.load(open("heart3.py","rb"))
 
-
+# ------- Another options to call pickle -------
 
 filename = 'heart3.py'
 with open(filename, 'wb') as f:
@@ -106,3 +93,16 @@ with open(filename, 'wb') as f:
 
 loaded_model = pickle.load(open("heart3.py","rb"))
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
