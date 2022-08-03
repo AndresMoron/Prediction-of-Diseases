@@ -28,26 +28,4 @@ with st.sidebar:
 if(selected == 'Heart Disease Prediction'):
     st.title('Predicción de problemas del corazón con uso de ML')
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    #cancer_model = pickle.load(open('C:/Users/andre/Desktop/Disease_prediction/Models/cancer3.py', 'rb'))
-    
-#parkinson_model = pickle.load(open("C:/Users/andre/Desktop/Models/parkinson.py"))
+  
